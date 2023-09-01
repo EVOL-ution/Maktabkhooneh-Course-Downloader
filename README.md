@@ -10,7 +10,7 @@ This is a Tampermonkey/Greasemonkey userscript to automate downloading course vi
 ## Usage
 
 1. Install the [Tampermonkey](https://www.tampermonkey.net/) (Chrome) or [Greasemonkey](https://www.greasespot.net/) (Firefox) extension.
-2. Click here to [install the script](https://github.com/EVOL-ution/Maktabkhooneh-Course-Downloader/blob/main/Maktabkhooneh_Course_Downloader.js).
+2. Click here to [install the script](https://github.com/EVOL-ution/Maktabkhooneh-Course-Downloader/blob/main/Maktabkhooneh_Course_Downloader.user.js).
 3. Go to any course page on Maktabkhooneh that you have purchased and own access to.
 4. Click the `دانلود` (Download) button to extract download links.
 5. The script will automatically collect and display the download links for each course unit in a new page.
