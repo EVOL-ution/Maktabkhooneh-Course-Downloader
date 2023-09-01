@@ -29,6 +29,10 @@ The script adds a "Download" button to the course pages. When clicked, it:
 - Opens a new tab with the download links listed
 So with one click you can get direct download links for the entire course
 
+## Example
+
+![Example](https://github.com/EVOL-ution/Maktabkhooneh-Course-Downloader/assets/81646149/b4dceb90-0beb-4563-a2d1-bedb15860cd9)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/EVOL-ution/Maktabkhooneh-Course-Downloader/blob/main/LICENSE) file for details.
