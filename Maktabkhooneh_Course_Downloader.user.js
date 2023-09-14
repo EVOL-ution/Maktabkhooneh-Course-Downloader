@@ -19,17 +19,22 @@
     // Function to grab href links and send GET requests
     function grabAndSendLinks() {
         // Find all elements with the specified class name
-        var elementsWithClass = document.querySelectorAll('a.base-chapter__unit-title-box');
+        var sectionElement = document.querySelector('section.base-chapter__section');
         var hrefLinks = [];
 
-        // Iterate through the elements and collect their href links
-        elementsWithClass.forEach(function(element) {
-            var href = element.getAttribute('href');
-            if (href) {
-                var absoluteUrl = toAbsoluteUrl(href);
-                hrefLinks.push(absoluteUrl);
-            }
-        });
+        if (sectionElement) {
+            // Find all anchor elements within the section
+            var anchorElements = sectionElement.querySelectorAll('a');
+
+            // Iterate through the anchor elements and collect their href links
+            anchorElements.forEach(function (element) {
+                var href = element.getAttribute('href');
+                if (href) {
+                    var absoluteUrl = toAbsoluteUrl(href);
+                    hrefLinks.push(absoluteUrl);
+                }
+            });
+        }
 
         // Send GET requests for all href links
         var downloadLinks = [];
